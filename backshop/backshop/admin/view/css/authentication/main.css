@@ -1,0 +1,15 @@
+
+body, html {
+    height: 100%;
+}
+
+.error-input {
+    background-color: #EA2027;
+    color: #FFFFFF;
+    font-size: .8rem;
+    border-radius: 5px;
+    padding: 4px;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+}

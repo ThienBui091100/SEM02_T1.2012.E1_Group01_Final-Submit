@@ -1,0 +1,55 @@
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Shop Name</h3>
+        </div>
+        <hr>
+        <ul class="list-unstyled components">
+            <li>
+                <a data-target="dashboard" class="side-nav-item" href="/backfashion/admin/DashBoard.php">DashBoard</a>
+            </li>
+            <li>
+                <a href="#homeSubmenu"  data-toggle="collapse" aria-expanded="false" class="dropdown-toggle side-nav-item">Catalog</a>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                        <a data-target="category" class="side-nav-item" href="/backfashion/admin/Catalog/Category/Listing.php">Category</a>
+                    </li>
+                    <li>
+                        <a data-target="product" class="side-nav-item" href="/backfashion/admin/Catalog/Product/Listing.php">Product</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a data-target="customer" class="side-nav-item" href="/backfashion/admin/Customer/Listing.php">Customer</a>
+            </li>
+            <li>
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle side-nav-item">Sales</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a data-target="order" class="side-nav-item" href="/backfashion/admin/Order/Listing.php">Order</a>
+                    </li>
+                    <li>
+                        <a data-target="transaction" class="side-nav-item" href="/backfashion/admin/Order/Transaction/Listing.php">Transaction</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a data-target="baiviet" class="side-nav-item" href="/backfashion/admin/xulybaiviet.php">Topic Manager</a>
+            </li>
+            <li>
+                <a data-target="danhmucbaiviet" class="side-nav-item" href="/backfashion/admin/xulydanhmucbaiviet.php">Post Manager</a>
+            </li>
+        </ul>
+
+        <ul class="list-unstyled CTAs">
+            <li>
+                <a data-target="admin" class="side-nav-item" href="/backfashion/admin/AdminUser/Listing.php">ADMIN MANAGER</a>
+                <a data-target="admin" class="side-nav-item" href="/backfashion/admin/Authentication/Logout.php">Logout</a>
+            </li>
+        </ul>
+    </nav>
+
+</div>
+
+<script src="/backfashion/admin/view/js/sidebar.js"></script>
